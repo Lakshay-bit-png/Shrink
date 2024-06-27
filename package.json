@@ -10,14 +10,21 @@
   "author": "lakshaygarg",
   "license": "MIT",
 "keywords": [
-    "url",
-    "shortener",
-    "redirect",
-    "api",
-    "nodejs",
-    "rapid",
-    "shrnk"
-  ],
+  "url",
+  "shortener",
+  "redirect",
+  "rapid",
+  "shrink",
+  "link",
+  "compress",
+  "url-shortener",
+  "tiny-url",
+  "short-link",
+  "api-service",
+  "url-redirect",
+  "redirect-url"
+
+],
   "description": "A package to Shorten and generate Redirect URL's",
   "dependencies": {
     "node-fetch": "^3.3.2"
