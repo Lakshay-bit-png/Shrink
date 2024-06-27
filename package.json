@@ -1,5 +1,5 @@
 {
-  "name": "quick-shrink",
+  "name": "rapid-shrink",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,18 +7,27 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "description": "",
+  "author": "lakshaygarg",
+  "license": "MIT",
+"keywords": [
+    "url",
+    "shortener",
+    "redirect",
+    "api",
+    "nodejs",
+    "rapid",
+    "shrnk"
+  ],
+  "description": "A package to Shorten and generate Redirect URL's",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "mongoose": "^8.4.4",
-    "node-fetch": "^3.3.2",
-     "uuid": "^10.0.0"
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lakshay-bit-png/Shrink"
+  },
+  "homepage": "https://github.com/Lakshay-bit-png/Shrink#readme"
 }
