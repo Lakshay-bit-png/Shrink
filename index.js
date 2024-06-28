@@ -1,7 +1,7 @@
 
 
 async function generate(link) {
-  let url = 'https://seal-app-qq2pf.ondigitalocean.app'; 
+  let url = 'https://ezly.site'; 
   
   try {
    
@@ -15,7 +15,7 @@ async function generate(link) {
       x.data.to = `https://${x.data.to}`;
     }
 
-    return `https://seal-app-qq2pf.ondigitalocean.app/r?r=${x.data.from}` ; 
+    return `${url}/r?r=${x.data.from}` ; 
 
 
   } catch (error) {
