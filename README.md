@@ -1,6 +1,6 @@
 # Rapid Shrink Package
 
-This package provides functionality to generate redirect URLs. It is designed to be simple and easy to integrate into any Node.js application.
+This package provides functionality to shorten and  generate redirect URLs. It is designed to be simple and easy to integrate into any Node.js application.
 
 ## Installation
 
@@ -55,3 +55,8 @@ Run the script using Node.js:
 ```sh
 node shorten.js
 ```
+
+
+## Visit the URL
+
+#### You can Visit the URL logged in the Terminal

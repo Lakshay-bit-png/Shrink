@@ -11,11 +11,9 @@ async function generate(link) {
     const x = await postData(url, { to: link });
 
    
-    if (!x.data.to.startsWith('http://') && !x.data.to.startsWith('https://')) {
-      x.data.to = `https://${x.data.to}`;
-    }
+   
 
-    return `${url}/r?r=${x.data.from}` ; 
+    return `https://ezly.site/r?r=${x.data.from}` ; 
 
 
   } catch (error) {
